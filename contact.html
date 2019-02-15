@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Contact</title>
+    <link href="./assets/css/style.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
     <header>
-<h1>Amber Heckmann</h1>
-<h3><a href="index.html">About</a></h3>
-<h3><a href="portfolio.html">Portfolio</a></h3>
-<h3><a href="contact.html">Contact</a></h3>
-</header>
-<h2>Contact</h2>
-<form>
-    <label for="name">Name</label><br>
-    <input id="name" name="name" value="John Smith" type="text" required>
-    <br>
-    <label for="email">Email</label><br>
-    <input id="email" name="email" value="example@gmail.com" type="text" required>
-    <br>
-    <label for="message">Message</label><br>
-    <textarea id="message" name="message" type="text"></textarea>
-    <br>
-    <input id="submit" name="submit" type="submit" value="submit">
+        <h1 class="name">Amber Heckmann</h1>
+        <div class="links">
+            <p><a href="index.html">About</a></p>
+            <p><a href="portfolio.html">Portfolio</a></p>
+            <p><a href="contact.html">Contact</a></p>
+        </div>
+    </header>
+    <div class="content">
+    <h2>Contact</h2>
+    <form>
+        <label for="name">Name</label><br>
+        <input id="name" name="name" value="John Smith" type="text" class="placeholder-txt" required>
+        <br>
+        <label for="email">Email</label><br>
+        <input id="email" name="email" value="example@gmail.com" type="text" class="placeholder-txt" required>
+        <br>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" type="text"></textarea>
+        <br>
+        <input id="submit" name="submit" type="submit" value="submit">
 
-</form>
+    </form>
+</div>
 
-
-
+    <footer>&copy; Copyright 2019</footer>
 </body>
+
 </html>
