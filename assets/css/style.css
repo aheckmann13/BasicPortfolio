@@ -34,7 +34,7 @@ p{
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 10px;
-    margin-left: 30px;
+    margin-left: auto;
     
 }
 .links{
@@ -51,6 +51,10 @@ p{
     background-color: #ffffff;
     border: thin solid #dddddd;
     margin: 30px;
+}
+div.content{
+    max-width: 960;
+    margin: 30px auto;
 }
 /* #about{
     float: left;
